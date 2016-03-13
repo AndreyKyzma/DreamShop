@@ -1,6 +1,6 @@
 package com.utill;
 
-import com.DreamShop.model.ItemsSKU;
+import com.dreamshop.model.ItemsSKU;
 
 /**
  * Created by Kyza on 12.03.2016.

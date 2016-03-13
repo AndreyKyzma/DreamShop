@@ -1,7 +1,7 @@
-package com.DreamShop.controllers;
+package com.dreamshop.controllers;
 
-import com.DreamShop.model.CustomersAddresses;
-import com.DreamShop.repository.CustAddresRepo;
+import com.dreamshop.model.CustomersAddresses;
+import com.dreamshop.repository.CustAddresRepo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

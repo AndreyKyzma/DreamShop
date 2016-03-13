@@ -1,6 +1,6 @@
 package com.utill;
 
-import com.DreamShop.model.Customers;
+import com.dreamshop.model.Customers;
 
 /**
  * Created by Kyza on 12.03.2016.

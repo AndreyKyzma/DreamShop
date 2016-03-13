@@ -1,9 +1,6 @@
-package com.DreamShop.config;
+package com.dreamshop.config;
 
-import com.DreamShop.Application;
 import org.hibernate.ejb.HibernatePersistence;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +11,6 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
@@ -25,10 +21,10 @@ import java.util.Properties;
  */
 @Configuration
 //@EnableWebMvc
-@ComponentScan("com.DreamShop")
+@ComponentScan("com.dreamshop")
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
-@EnableJpaRepositories("com.DreamShop.repository")
+@EnableJpaRepositories("com.dreamshop.repository")
 public class AppConfig {
     private static final String PROP_DATABASE_DRIVER = "db.driver";
     private static final String PROP_DATABASE_PASSWORD = "db.password";

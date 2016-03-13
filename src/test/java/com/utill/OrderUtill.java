@@ -1,7 +1,6 @@
 package com.utill;
 
-import com.DreamShop.model.Customers;
-import com.DreamShop.model.Orders;
+import com.dreamshop.model.Orders;
 
 /**
  * Created by Kyza on 12.03.2016.

@@ -1,9 +1,8 @@
-package com.DreamShop.model;
+package com.dreamshop.model;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.util.List;
 
 /**
  * Created by Kyza on 12.03.2016.

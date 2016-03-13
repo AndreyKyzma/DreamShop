@@ -1,9 +1,8 @@
-package com.DreamShop.model;
+package com.dreamshop.model;
 
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 
 /**
  * Created by Kyza on 10.03.2016.

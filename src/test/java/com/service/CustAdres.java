@@ -1,10 +1,9 @@
 package com.service;
 
-import com.DreamShop.model.Customers;
-import com.DreamShop.model.CustomersAddresses;
-import com.DreamShop.services.CustAddresService;
+import com.dreamshop.model.Customers;
+import com.dreamshop.model.CustomersAddresses;
+import com.dreamshop.services.CustAddresService;
 import com.config.TestDataConfig;
-import com.utill.CustAddressUtill;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.annotation.DirtiesContext;

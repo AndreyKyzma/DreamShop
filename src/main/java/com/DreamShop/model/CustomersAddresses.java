@@ -1,4 +1,4 @@
-package com.DreamShop.model;
+package com.dreamshop.model;
 
 import org.hibernate.annotations.GenericGenerator;
 

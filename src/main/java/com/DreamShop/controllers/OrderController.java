@@ -1,20 +1,15 @@
-package com.DreamShop.controllers;
+package com.dreamshop.controllers;
 
-import com.DreamShop.model.ItemsSKU;
-import com.DreamShop.model.Orders;
-import com.DreamShop.repository.OrdersRepo;
-import com.DreamShop.services.implementation.CustomersImpl;
-import com.DreamShop.services.implementation.OrdersImpl;
-import org.springframework.core.annotation.Order;
+import com.dreamshop.model.Orders;
+import com.dreamshop.repository.OrdersRepo;
+import com.dreamshop.services.implementation.CustomersImpl;
+import com.dreamshop.services.implementation.OrdersImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
 
 /**

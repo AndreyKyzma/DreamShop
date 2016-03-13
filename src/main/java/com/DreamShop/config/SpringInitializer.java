@@ -1,6 +1,6 @@
-package com.DreamShop.config;
+package com.dreamshop.config;
 
-import com.DreamShop.Application;
+import com.dreamshop.Application;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 

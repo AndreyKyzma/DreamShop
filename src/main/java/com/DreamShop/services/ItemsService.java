@@ -1,6 +1,6 @@
-package com.DreamShop.services;
+package com.dreamshop.services;
 
-import com.DreamShop.model.ItemsSKU;
+import com.dreamshop.model.ItemsSKU;
 
 import java.util.List;
 

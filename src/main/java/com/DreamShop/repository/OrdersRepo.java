@@ -1,8 +1,7 @@
-package com.DreamShop.repository;
+package com.dreamshop.repository;
 
-import com.DreamShop.model.Orders;
+import com.dreamshop.model.Orders;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 
 /**
  * Created by Kyza on 12.03.2016.

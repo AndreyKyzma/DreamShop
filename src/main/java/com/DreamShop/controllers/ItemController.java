@@ -1,17 +1,10 @@
-package com.DreamShop.controllers;
+package com.dreamshop.controllers;
 
-import com.DreamShop.model.ItemsSKU;
-import com.DreamShop.repository.ItemsRepository;
-import com.DreamShop.services.ItemsService;
-import com.sun.org.apache.xpath.internal.operations.String;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.dreamshop.model.ItemsSKU;
+import com.dreamshop.repository.ItemsRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

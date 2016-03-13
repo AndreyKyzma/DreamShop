@@ -1,13 +1,11 @@
-package com.DreamShop.services.implementation;
+package com.dreamshop.services.implementation;
 
-import com.DreamShop.model.ItemsSKU;
-import com.DreamShop.model.Orders;
-import com.DreamShop.repository.OrdersRepo;
-import com.DreamShop.services.OrdersService;
+import com.dreamshop.model.Orders;
+import com.dreamshop.repository.OrdersRepo;
+import com.dreamshop.services.OrdersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

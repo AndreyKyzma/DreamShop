@@ -18,8 +18,8 @@ import java.util.Properties;
  */
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.DreamShop")
-@EnableJpaRepositories("com.DreamShop.repository")
+@ComponentScan("com.dreamshop")
+@EnableJpaRepositories("com.dreamshop.repository")
 public class TestDataConfig {
     private static final String PROPERTY_NAME_DATABASE_DRIVER = "org.mariadb.jdbc.Driver";
     private static final String PROPERTY_NAME_DATABASE_URL = "jdbc:mysql://localhost:3307/dreamshop";
@@ -28,7 +28,7 @@ public class TestDataConfig {
 
     private static final String PROPERTY_NAME_HIBERNATE_DIALECT = "org.hibernate.dialect.MySQLDialect";
     private static final String PROPERTY_NAME_HIBERNATE_SHOW_SQL = "true";
-    private static final String PROPERTY_NAME_ENTITYMANAGER_PACKAGES_TO_SCAN = "com.DreamShop.model";
+    private static final String PROPERTY_NAME_ENTITYMANAGER_PACKAGES_TO_SCAN = "com.dreamshop.model";
     //private static final String PROPERTY_NAME_HIBERNATE_HBM2DDL_AUTO = "create";
 
     @Bean

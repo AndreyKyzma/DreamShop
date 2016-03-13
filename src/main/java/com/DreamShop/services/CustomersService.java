@@ -1,6 +1,6 @@
-package com.DreamShop.services;
+package com.dreamshop.services;
 
-import com.DreamShop.model.Customers;
+import com.dreamshop.model.Customers;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package com.DreamShop.services.implementation;
+package com.dreamshop.services.implementation;
 
-import com.DreamShop.model.ItemsSKU;
-import com.DreamShop.repository.ItemsRepository;
-import com.DreamShop.services.ItemsService;
+import com.dreamshop.model.ItemsSKU;
+import com.dreamshop.repository.ItemsRepository;
+import com.dreamshop.services.ItemsService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

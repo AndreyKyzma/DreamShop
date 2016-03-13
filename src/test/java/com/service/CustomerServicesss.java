@@ -1,6 +1,6 @@
 package com.service;
 
-import com.DreamShop.services.CustomersService;
+import com.dreamshop.services.CustomersService;
 import com.config.TestDataConfig;
 
 import com.utill.CustomerUtill;

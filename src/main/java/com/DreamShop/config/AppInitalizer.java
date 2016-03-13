@@ -1,4 +1,4 @@
-package com.DreamShop.config;
+package com.dreamshop.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

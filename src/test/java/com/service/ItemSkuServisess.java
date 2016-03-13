@@ -1,6 +1,6 @@
 package com.service;
 
-import com.DreamShop.services.ItemsService;
+import com.dreamshop.services.ItemsService;
 import com.config.TestDataConfig;
 import com.utill.ItemUtill;
 import org.junit.Test;

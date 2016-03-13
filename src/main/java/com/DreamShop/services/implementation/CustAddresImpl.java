@@ -1,11 +1,10 @@
-package com.DreamShop.services.implementation;
+package com.dreamshop.services.implementation;
 
 
-import com.DreamShop.model.CustomersAddresses;
-import com.DreamShop.repository.CustAddresRepo;
+import com.dreamshop.model.CustomersAddresses;
+import com.dreamshop.repository.CustAddresRepo;
 
-import com.DreamShop.services.CustAddresService;
-import com.DreamShop.services.CustomersService;
+import com.dreamshop.services.CustAddresService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

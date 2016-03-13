@@ -1,9 +1,8 @@
-package com.DreamShop.services.implementation;
+package com.dreamshop.services.implementation;
 
-import com.DreamShop.model.Customers;
-import com.DreamShop.model.Orders;
-import com.DreamShop.repository.CustomersRepository;
-import com.DreamShop.services.CustomersService;
+import com.dreamshop.model.Customers;
+import com.dreamshop.repository.CustomersRepository;
+import com.dreamshop.services.CustomersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
